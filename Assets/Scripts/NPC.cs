@@ -13,7 +13,7 @@ public class NPC : MonoBehaviour
 
     public void Falar()
     {
-        Debug.Log("Oi, meu nome é " + nome);
+        Debug.Log("Oi, meu nome é " + nome + " né!");
     }
 
 }
