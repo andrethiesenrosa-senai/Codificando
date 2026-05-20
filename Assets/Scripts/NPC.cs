@@ -2,10 +2,18 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public string nome;
+    public bool interagivel;
+    public int idade;
+
     void Start()
     {
-        
+
+    }
+
+    public void Falar()
+    {
+        Debug.Log("Oi, meu nome é " + nome);
     }
 
 }
